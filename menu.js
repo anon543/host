@@ -68,5 +68,4 @@ function align(dis) {
   // set the text
   $(".page").text(dis.attr("title"));
   var tabNames=["home","news","episodes","specials","credits"];
-  paramChange("tab", tabNames[dis.index()], false)
 }
