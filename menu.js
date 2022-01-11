@@ -46,19 +46,9 @@ $('body').on('keydown', function (e) {
 function paramChange(p, v, reload) {
   var url = new URL(window.location.href);
   url.searchParams.set(p, v);
-  if(reload){
-    try {
+  try {
       window.location.href = window.location.href.split('?')[0] + "?" + params.toString();
-    } catch (e) {}
-  }else{
-    try{
-      window.history.replaceState(null, null, "/"+v);
-    }catch(e){
-      try{
-        window.history.replaceState(null, null, url);
-      }catch(e){}
-    }
-  }
+  } catch (e) {}
 }
 
 function align(dis) {
