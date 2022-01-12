@@ -50,15 +50,15 @@ function paramChange(p, v, reload) {
     try {
       window.location.href = window.location.href.split('?')[0] + "?" + params.toString();
     } catch (e) {}
-  }else{
-    try{
-      window.history.replaceState(null, null, window.location.href.split('?')[0] + "?" + params.toString());
-    }catch(e){
-      try{
-        window.history.replaceState(null, null, window.location.href.split('?')[0] + "?" + params.toString());
-      }catch(e){}
-    }
-  }
+  }//else{
+  //  try{
+  //    window.history.replaceState(null, null, url);
+  //  }catch(e){
+  //    try{
+  //      window.history.replaceState(null, null, url);
+  //    }catch(e){}
+  //  }
+  //}
 }
 
 function align(dis) {
