@@ -1,10 +1,3 @@
-/*
-
-  MiraculousHUB 2021 
-  Menu Support Script
-
-*/
-
 // align the wave on click
 $(".list-wrap li").click(function () {
   dis = $(this);
@@ -52,7 +45,7 @@ function paramChange(p, v, reload) {
     } catch (e) {}
   }else{
     try{
-      window.history.replaceState(null, null, url);
+      window.history.replaceState(null, null, window.location.href.split('?')[0] + "?tab=" + v);
     }catch(e){
       try{
         window.history.replaceState(null, null, url);
@@ -78,5 +71,5 @@ function align(dis) {
   // set the text
   $(".page").text(dis.attr("title"));
   var tabNames=["home","news","episodes","specials","credits"];
-  paramChange("tab", tabNames[dis.index()], true)
+  paramChange("tab", tabNames[dis.index()], false)
 }
