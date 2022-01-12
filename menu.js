@@ -36,6 +36,8 @@ $('body').on('keydown', function (e) {
   }
 });
 
+function getUrlVars() {var vars = {};var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {vars[key] = value;});return vars;}
+
 function paramChange(p, v, reload) {
   var url = new URL(window.location.href);
   url.searchParams.set(p, v);
@@ -45,7 +47,7 @@ function paramChange(p, v, reload) {
     } catch (e) {}
   }else{
     try{
-      window.history.replaceState(null, null, window.location.href.split('?')[0] + "?tab=" + v + "&" + window.location.href.split('?')[1]);
+      window.history.replaceState(null, null, window.location.href.split('?')[0] + "?tab=" + v + "&show=" + getUrlVars()["show"]);
     }catch(e){
       try{
         window.history.replaceState(null, null, url);
