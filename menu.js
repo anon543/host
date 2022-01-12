@@ -45,7 +45,7 @@ function paramChange(p, v, reload) {
     } catch (e) {}
   }else{
     try{
-      window.history.replaceState(null, null, window.location.href.split('?')[0] + "?tab=" + v);
+      window.history.replaceState(null, null, window.location.href.split('?')[0] + "?tab=" + v + "&" + window.location.href.split('?')[1]);
     }catch(e){
       try{
         window.history.replaceState(null, null, url);
