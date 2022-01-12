@@ -50,15 +50,15 @@ function paramChange(p, v, reload) {
     try {
       window.location.href = window.location.href.split('?')[0] + "?" + params.toString();
     } catch (e) {}
-  }//else{
-  //  try{
-  //    window.history.replaceState(null, null, url);
-  //  }catch(e){
-  //    try{
-  //      window.history.replaceState(null, null, url);
-  //    }catch(e){}
-  //  }
-  //}
+  }else{
+    try{
+      window.history.replaceState(null, null, url);
+    }catch(e){
+      try{
+        window.history.replaceState(null, null, url);
+      }catch(e){}
+    }
+  }
 }
 
 function align(dis) {
@@ -78,5 +78,5 @@ function align(dis) {
   // set the text
   $(".page").text(dis.attr("title"));
   var tabNames=["home","news","episodes","specials","credits"];
-  paramChange("tab", tabNames[dis.index()], false)
+  paramChange("tab", tabNames[dis.index()], true)
 }
