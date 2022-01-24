@@ -565,8 +565,7 @@ background: rgb(15 89 162);
 width: 100%;
 min-height: 76px;
 color: rgba(255,255,255,0.8);
-display: flex;
-font-family: Roboto, sans-serif;
+/* display: flex; */
 font-weight: 800;
 font-size: 18px;
 align-items: center;
