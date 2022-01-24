@@ -565,12 +565,12 @@ background: rgb(15 89 162);
 width: 100%;
 min-height: 76px;
 color: rgba(255,255,255,0.8);
-/* display: flex; */
+display: flex;
 font-weight: 800;
 font-size: 18px;
 align-items: center;
 box-shadow: 0 -8px 20px 0 black;
-z-index: 1;
+/* z-index: 1; */
 text-align: center;
 position: relative;
 }
