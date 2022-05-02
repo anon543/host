@@ -1,0 +1,22 @@
+{
+  "name": "Komi Can't Communicate (2021-22)",
+  "image": "https://i.postimg.cc/wxnRdVkH/kcc.jpg",
+  "seasons": "1,2",
+  "1":{
+    "season": 1,
+    "episodes": [
+      {"name":"Episode 1 - It's just, I wish I could speak.","img":"https://www.themoviedb.org/t/p/original/aPutPKTMPIMA9kKdg0JPqabztB5.jpg"},
+      {"name":"Episode 2 - It's just a childhood friend. Plus more.","img":"https://www.themoviedb.org/t/p/original/imqSIHTsTBVX7ZlwHpev42Ivg3Q.jpg"},
+      {"name":"Episode 3 - It's just stage fright. Plus more.","img":"https://www.themoviedb.org/t/p/original/1q7SZTP6gzqkvuT2WoV6KrD510l.jpg"},
+      {"name":"Episode 4 - It's just a physical. Plus more.","img":"https://www.themoviedb.org/t/p/original/vqZy5GOiipAqeZ7DJRSN8omJvZb.jpg"},
+      {"name":"Episode 5 - It's just my summer uniform. Plus more.","img":"https://www.themoviedb.org/t/p/original/hVofmRubhqc886SuTbbMNk5oIw3.jpg"},
+      {"name":"Episode 6 - It's just a joke. Plus more.","img":"https://www.themoviedb.org/t/p/original/pKw16aEJXzWlzmjRnuCDcKpuTEe.jpg"},
+      {"name":"Episode 7 - It's just the pool. Plus more.","img":"https://www.themoviedb.org/t/p/original/fHEFkJPDEj1Aq9JaqCuMKAdtQe.jpg"},
+      {"name":"Episode 8 - It's just Obon. Plus more.","img":"https://www.themoviedb.org/t/p/original/9FQmKwu7XZuXVMQvFJPTctmi57a.jpg"},
+      {"name":"Episode 9 - It's just a country kid. Plus more.","img":"https://www.themoviedb.org/t/p/original/y8m17VhT65YG0lQDrkaf0IcskjM.jpg"},
+      {"name":"Episode 10 - It's just sports day. Plus more.","img":"https://www.themoviedb.org/t/p/original/mG7lK0Pcpaww6RDwqc66fsgfp2E.jpg"},
+      {"name":"Episode 11 - It's just a performance for the culture festival.","img":"https://www.themoviedb.org/t/p/original/bfCHeHf9QSgUNsQqtYnrLaNz3RD.jpg"},
+      {"name":"Episode 12 - It's just the culture festival.","img":"https://www.themoviedb.org/t/p/original/hrHB1vVSO9Cl3jxxetwPFCHPlCq.jpg"}
+    ]
+  }
+}
