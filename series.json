@@ -1,14 +1,20 @@
 { 
 "list": [{
-		"name": "Johnny Test",
+    "name": "Johnny Test",
     "rdate": "2021-22",
     "thumb": "https://i.imgur.com/H2Yz167.jpg",
     "slug": "johnny-test"
-	},
+  },
   {
-		"name": "What If...",
+    "name": "Komi Can't Communicate",
+    "rdate": "2021-22",
+    "thumb": "https://i.postimg.cc/wxnRdVkH/kcc.jpg",
+    "slug": "komi-cant-communicate"
+  },
+  {
+    "name": "What If...",
     "rdate": "2021",
     "thumb": "https://i.imgur.com/IKVdKMh.jpg",
     "slug": "what-if"
-	}]
+  }]
 }
